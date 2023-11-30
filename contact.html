@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Using CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Figma</title>
+</head>
+
+<body>
+    <section class="container-fluid">
+        <section class="row mb-5">
+            <div class="col-sm-9">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html"><img src="assents/images/Group 13.svg" alt=""></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active pt-3 ms-3" aria-current="page" href="/Web/single.html">Popular</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active pt-2 ms-3" aria-current="page" href="/Web/news.html"><button
+                                            class="new">New</button></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active pt-3 ms-3" aria-current="page" href="#">Reading list</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active pt-3 ms-3" aria-current="page" href="#">Topics</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active pt-3 ms-3" aria-current="page" href="/Web/contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-sm-3 text-end pe-5 pt-4">
+                <i class="bi bi-search"></i>
+            </div>
+        </section>
+        <section class="mt-5">
+        <div class="col-sm-12">
+            <div class="row">
+                <div class="col-sm-6 derecha">
+                    <img class="redondear" src="assents/images/contact.jpg" class="centro" style="width: auto;height: auto;" alt="">
+                </div>
+                <div class="col-sm-6">
+                    <p class="texto">Contact us</p>
+                    <form action="contact.html" method="get">
+                        <div class="col-sm-12">
+                            <label for="mensaje"></label>
+                            <input type="text"  style="width: 500px ;height: 50px"  id="comment" placeholder="Name" class="tocho">
+                        </div>
+                        <div class="col-sm-12 mt-4">
+                            <label for="mensaje"></label>
+                            <input type="text"  style="width: 500px ;height: 50px"  id="comment" placeholder="Last name" class="tocho">
+                        </div>
+                        <div class="col-sm-12 mt-4">
+                            <label for="correo"></label>
+                            <input type="email" style="width: 500px ;height: 50px" id="correo" placeholder="Gmail" required/>
+                        </div>
+                        <div class="col-sm-12 mt-4 mb-4">
+                            <label for="mensaje"></label>
+                            <input type="text"  style="width: 500px ;height: 100px"  id="comment" placeholder="Comment" class="tocho" required >
+                        </div>
+                        <div class="mt-4">
+                            <input type="submit" value="submit">
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>    
+        </div>
+        <div class="col-sm-12 mt-5">
+            <div class="row">
+                <p class="titulo">Where are we</p>
+               
+                    <!--Google map-->
+                    <div id="map-container-google-1" class="z-depth-1-half">
+                        <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                        style="border:0" allowfullscreen></iframe>
+                    </div>
+                    
+            </div>
+        </div>
+        </section>
+        <section class="row">
+            <footer class=" py-4 mt-5">
+                <div class="col-sm-12 text-center">
+                    <div class="row">
+                        <div class="col-sm-2"><img src="assents/icons/Group 13.jpg" alt=""></div>
+                        <div class="col-sm-8"><img src="assents/icons/Social Media.jpg" alt=""></div>
+                        <div class="col-sm-2"><small class="">All Rights Reserved 2018 3layers</small></div>
+                    </div>
+                </div>
+            </footer>
+        </section>
+    </section>
+    </body>
+</html>
